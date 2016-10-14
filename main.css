@@ -1,0 +1,55 @@
+html {
+  background-color: #FFFFF6;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+}
+
+.top {
+  display: flex;
+  background-color: #12130D;
+  padding-left: 1.5em;
+  padding-bottom: .5em;
+}
+.intro {
+  flex-grow: 2;
+}
+h2 {
+  padding-top: .3em;
+}
+
+h2, p {
+  color: #F8F2E3;
+  margin: 0px;
+}
+
+h4 {
+  color: #F5CF4A;
+  margin-top: 0px
+}
+
+.image {
+  padding-right: 1.5em;
+  padding-top: .5em;
+}
+
+img {
+  border-radius: 50px;
+  border: 3px solid #F5CF4A;
+}
+
+.nav-bar {
+  display: flex;
+  background-color: #2B2B2B;
+  height: 2em;
+  justify-content: space-around;
+  padding-left: 1.5em;
+  padding-top: .5em;
+  min-width: 100vw;
+}
+
+a {
+  color: white;
+}
