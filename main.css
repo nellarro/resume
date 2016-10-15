@@ -45,11 +45,27 @@ img {
   background-color: #2B2B2B;
   height: 2em;
   justify-content: space-around;
-  padding-left: 1.5em;
   padding-top: .5em;
   min-width: 100vw;
 }
 
 a {
   color: white;
+  transition: color .7s linear;
+}
+
+a:link {
+  color: #FFFACD;
+}
+
+a:hover {
+  color: #F5CF4A;
+}
+
+a:visited {
+  color: #12130D;
+}
+
+i {
+  padding-right: 5px;
 }
